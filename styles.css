@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI";
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+header {
+    background-color: grey;
+    position: relative;
+    padding: 4rem;
+}
+
+nav a {
+    color: #000000;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    position:absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+}
+
+nav li {
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+footer {
+    background-color: #BF7631;
+    padding: 3rem;
+    position:relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
