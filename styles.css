@@ -6,32 +6,192 @@ body {
     font-family: "Segoe UI";
     background-color: #FFFFFF;
     margin: 0;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 
 header {
-    background-color: grey;
+    /* background-color: grey; */
     position: relative;
     padding: 4rem;
 }
 
+nav {
+    list-style-type: none;
+    position: relative;
+    top: 0.1rem;
+    left: 0.1rem;
+}
+
+.border-color {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid;
+    border-color: red;
+    background-color: black;
+    width:auto;
+    margin-right: 5%;
+}
+.row-center{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.row-center a{
+    margin-right: 100px;
+}
 nav a {
     color: #000000;
     font-size: 30px;
     text-decoration: none;
 }
 
-nav ul {
-    list-style-type: none;
-    position:absolute;
-    top: 0.1rem;
-    left: 0.1rem;
+/* #input [type=text] {
+    background-color: grey;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+} */
+
+
+.slogan-left {
+    color: white;
+    border: solid;
+    border-color: purple;
+    width:8%;
+    margin-top: 7%;
 }
 
-nav li {
-    display: inline;
-    margin-left: 0.5rem;
+.slogan-img {
+    border: solid;
+    border-color: black;
+    width: auto
 }
 
+.slogan-right {
+    color: white;
+    border: solid;
+    border-color: blue;
+    width: 8%;
+    margin-top: 20%;
+}
+
+.about-us {
+    border: solid;
+    border-color: black;
+    width:auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.text-about-us-part-one {
+    padding: 1rem;
+    width: 50%;
+}
+
+.two-images-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.vase-dame {
+    border: solid;
+    border-color: black;
+    width:auto;
+    padding-left: 4rem;
+
+}
+
+.center-text {
+    border: solid;
+    border-color: black;
+    width:auto;
+    margin-right: 30%;
+    margin-left: 10%;
+}
+
+.cylinder-unglazed {
+    border: solid;
+    border-color: black;
+    width:auto;
+}
+
+.products {
+    border: solid;
+    border-color: black;
+    width:auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.products-tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border:solid;
+    border-color:purple;
+    width:50%;
+}
+
+.product-tile {
+    border:solid;
+    border-color:greenyellow;
+    width:639.98px;
+}
+
+/* .img {
+    margin-bottom: 50%;
+} */
+
+.name-price {
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    color:black;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: black;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.learn-cart {
+    display: flex;
+    justify-content:space-between;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    text-decoration: underline;
+    color:black;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    color:black;
+}
 footer {
     background-color: #BF7631;
     padding: 3rem;

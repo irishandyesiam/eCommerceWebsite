@@ -10,51 +10,130 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>PRODUCTS</li>
-                <li>CONTACT</li>
-                <a href="">CARA
-                    <img 
-                        src="assets/icons8-pottery-96.png"
-                        alt="orange pot icon"
-                    />CARA</a>
-                <li>SEARCH</li>
-                <li>CART</li>
-            </ul>
+            <div class="row-center">
+                <a>HOME</a>
+                <a>ABOUT</a>
+                <a>PRODUCTS</a>
+                <a style="margin-right: 25%;">CONTACT</a>
+                <li style="font-size: 40px; font-weight: bold;"><href="">CARA</li>
+                <li><img 
+                    src="assets/icons8-pottery-96.png"
+                    alt="orange pot icon"
+                    class="center"
+                /></li>
+                <li style="margin-right: 25%;font-size: 40px; font-weight: bold;"><href="" >CARA</li>
+                <input placeholder="">
+                <!-- <li style="margin-left: auto; font-size: 30px"; id="input">SEARCH</li> -->
+                <li style="margin-left: auto; font-size: 30px;">CART (0)</li>
+            </div>
+            <hr style="height: 10px;background-color: #000000;">
         </nav>
     </header>    
     <main>
-        <div class="home">
-            <h1>CERAMICS CRAFTED BY HAND...</h1>
-            <img
+        <div class="border-color"> 
+            <div class="slogan-left"><h1 style="font-size: 50px;">CERAMICS CRAFTED BY HAND...</h1></div>
+            <div class="slogan-img"><img
                 src="assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg"
                 alt="hands with wet clay on potter's wheel"
-            />
-            <h1>... FROM THE GROUND UP</h1>
+            /></div>
+            <div class="slogan-right"><h1 style="font-size:50px;">... FROM THE GROUND UP</h1></div>
         </div>
-        <div class="about us">
-            <h1>ABOUT US</h1>
-            <img
-                src="assets/Vase_Dame_2048x2048.jpg"
-                alt="white vase with pearls and cone shaped flowers"
-            />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.
-            </p>
-            <p>Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.
-            </p>    
-            <p>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus
-            </p>
-            <img
-            src="assets/Cylinder_unglazed3_2048x2048.jpg"
-            alt="white vase with tall grass"
-            />
-        </div>
+        <div class="about-us">
+            <h1 style="font-size: 40px;">ABOUT US</h1>
+            <hr style="height: 10px; background-color: black; margin-right: 50%;">
+            <div class="text-about-part-one">
+                <p style="font-size: 30px; margin-right: 50%; margin-left: 10%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.
+                </p>
+            </div>
+        </div>        
+            <div class="two-images-text">    
+                <div class="vase-dame">
+                    <img
+                    src="assets/Vase_Dame_2048x2048.jpg"
+                    alt="white vase with pearls and cone shaped flowers"
+                    />
+                </div>
+                <div class="center-text">
+                    <p style="font-size: 30px;">Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.
+                    </p>    
+                    <p style="font-size: 30px;">Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus
+                    </p>
+                </div>
+                <div class="cylinder-unglazed">
+                <img
+                src="assets/Cylinder_unglazed3_2048x2048.jpg"
+                alt="white vase with tall grass"
+                />
+                </div>
+            </div>
+        
         <div class="products">
-            <h1>OUR PRODUCTS</h1>
-            <!-- grid of images, discriptions, prices -->
+            <h1 style="font-size: 40px;">OUR PRODUCTS</h1>
+            <hr style="height: 10px; background-color: black; margin-right: 50%;">    
         </div>
+        <!-- grid of images, discriptions, prices -->
+        <div class="product-tiles">
+            <div class="product-tile">               
+                <div class="img"><img 
+                    src=assets/tom-crew-7HuTGlUfQSo-unsplash.jpg
+                    alt="mundo bowls"/>
+                </div>
+                <div class="name-price">
+                    <div class="name"> MUNDO BOWLS </div>
+                    <div class="name"> $48.00 </div>
+                </div>
+                <hr style="height: 2px; background-color: black; margin-right: 50%;">
+                <div class="description"> Tincidunt praesent semper feugiat nibh
+                    sed. Vulputate mi sit amet mauris
+                    commodo quis imperdiet massa. Amet
+                    tellus cras adipiscing enim eu turpis
+                    egestas pretium aenean </div>
+                <div class="learn-cart">   
+                    <div class="learn-more"> learn more button </div>
+                    <div class="add-to-cart"> add to cart button </div>
+                </div>   
+            </div>
+            <div class="product-tile">
+                <div class="img"><img 
+                    src=assets/oriento-maVIpNNtmlQ-unsplash.jpg
+                    alt="natureza vase"/>
+                </div>
+                <div class="name-price">
+                    <div class="name"> NATUREZA VASE </div>
+                    <div class="name"> $37.00 </div>
+                </div>
+                <hr style="height: 2px; background-color: black; margin-right: 50%;">
+                <div class="description"> Tincidunt praesent semper feugiat nibh
+                    sed. Vulputate mi sit amet mauris
+                    commodo quis imperdiet massa. Amet
+                    tellus cras adipiscing enim eu turpis
+                    egestas pretium aenean </div>
+                <div class="learn-cart">   
+                    <div class="learn-more"> learn more button </div>
+                    <div class="add-to-cart"> add to cart button </div>
+                </div> 
+            </div>    
+            <div class="product-tile"> 
+                <div class="img"><img 
+                    src=assets/tom-crew-bgIO-u4GEfI-unsplash.jpg
+                    alt="feira bowls"/>
+                </div>
+                <div class="name-price">
+                    <div class="name"> FEIRA BOWLS </div>
+                    <div class="name"> $29.00 </div>
+                </div>
+                <hr style="height: 2px; background-color: black; margin-right: 50%;">
+                <div class="description"> Tincidunt praesent semper feugiat nibh
+                    sed. Vulputate mi sit amet mauris
+                    commodo quis imperdiet massa. Amet
+                    tellus cras adipiscing enim eu turpis
+                    egestas pretium aenean </div>
+                <div class="learn-cart">   
+                    <div class="learn-more"> learn more button </div>
+                    <div class="add-to-cart"> add to cart button </div>
+                </div>                 
+            </div>
+        </div>    
         <div class="contact us">
             <h1>CONTACT US</h1>
             <!-- bold line -->
