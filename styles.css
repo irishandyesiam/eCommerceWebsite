@@ -131,19 +131,18 @@ nav a {
     padding-right: 4rem;
 }
 
-.products-tiles {
+.product-tiles {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    border:solid;
-    border-color:purple;
-    width:50%;
+
 }
 
 .product-tile {
     border:solid;
     border-color:greenyellow;
     width:639.98px;
+    box-sizing: border-box;
 }
 
 /* .img {
@@ -192,6 +191,7 @@ nav a {
     font-size: 25px;
     color:black;
 }
+
 footer {
     background-color: #BF7631;
     padding: 3rem;
